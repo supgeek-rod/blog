@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="" />
-    <title>Luke's Homepage | </title>
+    <title>Categories | </title>
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAD/APr59wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiAAAiIiIiIiIAACIiIiIiIgERERERERIiAREREREREiIBERERERESIgERIiIiERIiAREiIiIREiIBESIhERESIgERIiERERIiAREiIiIiIiIBESIiIiIiIgERIiIiIiIiAREREREREAABEREREREQAAERERERERAADgAQAA4AEAAOABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAA8AAAAPAAAADwAA" rel="icon" type="image/x-icon" />
     <link href="/feed/" rel="alternate" title="" type="application/atom+xml" />
     
@@ -26,32 +26,40 @@
           <a href="/about" class="ss-icon" title="About" >user</a>
           <a href="/feed" class="ss-icon" title="Subscribe by RSS" >rss</a>
         </div>
-        <h1>Luke's Homepage</h1>
+        <h1>Categories</h1>
         </header>
         <hr>
         <article class="content">
         <section class="post">
+<div id='tag_cloud'>
+
+</div>
+
+
+
+
 <ul class="listing">
 
 </ul>
 
-<div id="post-pagination" class="paginator">
 
-  
-    <span class="previous disabled"><前页</span>
-  
 
-      
-      <a href="/">1</a>
-      
 
-    
+<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
 
-  
-    <span class="next disabled" >后页></span>
-  
-  (共篇)
-</div>
+
+<p></p>
+
+<script language="javascript">
+$.fn.tagcloud.defaults = {
+    size: {start: 1, end: 1, unit: 'em'},
+      color: {start: '#f8e0e6', end: '#ff3333'}
+};
+
+$(function () {
+    $('#tag_cloud a').tagcloud();
+});
+</script>
 
 
 </section>
