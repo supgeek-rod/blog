@@ -1,1 +1,6 @@
-baseurl: /jekyll_demo
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://code.zhanghongrou.com.cn
+author:sup.rod 
+pygments: true
+paginate: 24
