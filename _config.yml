@@ -1,6 +1,5 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: http://code.zhanghongrou.com.cn/
-author:sup.rod 
-pygments: true
+auther: supgeek.rod
+pygments: true 
 paginate: 24
