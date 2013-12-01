@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="supgeek.rod" />
-    <title>Categories | supgeek.rod</title>
+    <title>project living | supgeek.rod</title>
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAD/APr59wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiAAAiIiIiIiIAACIiIiIiIgERERERERIiAREREREREiIBERERERESIgERIiIiERIiAREiIiIREiIBESIhERESIgERIiERERIiAREiIiIiIiIBESIiIiIiIgERIiIiIiIiAREREREREAABEREREREQAAERERERERAADgAQAA4AEAAOABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAA8AAAAPAAAADwAA" rel="icon" type="image/x-icon" />
     <link href="/feed/" rel="alternate" title="supgeek.rod" type="application/atom+xml" />
     
@@ -26,64 +26,94 @@
           <a href="/about" class="ss-icon" title="About" >user</a>
           <a href="/feed" class="ss-icon" title="Subscribe by RSS" >rss</a>
         </div>
-        <h1>Categories</h1>
+        <h1>project living</h1>
         </header>
         <hr>
         <article class="content">
         <section class="post">
-<div id='tag_cloud'>
+<p>在lamp-brother有4小月了,最近在忙活的一个project  <br/>
+还有一个半月就可以回家了，很想回去，12月20号表哥结婚很想回去。</p>
 
-<a href="#lifes" title="lifes" rel="1">lifes (1)</a>
+<h3>living 这是效果图</h3>
 
-<a href="#codes" title="codes" rel="1">codes (1)</a>
-
-</div>
-
-
-
-
-<ul class="listing">
-
-  <li class="listing-seperator" id="lifes">lifes</li>
-
-  <li class="listing-item">
-  <time datetime="2013-11-30">2013-11-30</time>
-  <a href="/2013/11/hello-jekyll%26github-pages/" title="Hello jekyll&github pages">Hello jekyll&github pages</a>
-  </li>
-
-
-  <li class="listing-seperator" id="codes">codes</li>
-
-  <li class="listing-item">
-  <time datetime="2013-12-01">2013-12-01</time>
-  <a href="/2013/12/project-living/" title="project living">project living</a>
-  </li>
-
-
-</ul>
-
-
-
-
-<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
-
-
-<p></p>
-
-<script language="javascript">
-$.fn.tagcloud.defaults = {
-    size: {start: 1, end: 1, unit: 'em'},
-      color: {start: '#f8e0e6', end: '#ff3333'}
-};
-
-$(function () {
-    $('#tag_cloud a').tagcloud();
-});
-</script>
-
+<p><img src="/post_pic/living_readme.png" alt="foo" />
+<img src="./post_pic/living_home.png" alt="foo" />
+<img src="./post_pic/living_home2.png" alt="foo" />
+<img src="./post_pic/living_signin.png" alt="foo" />
+<img src="./post_pic/living_register.png" alt="foo" /></p>
 
 </section>
+<section class="meta">
+<span class="author">
+  <a href="http://geeklu.com">supgeek.rod</a>
+</span>
+<span class="time">
+  /
+  <time datetime="2013-12-01">2013-12-01</time>
+</span>
+<br />
+<span class="license">
+  Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">(CC) BY-NC-SA</a>
+</span>
 
+<span class="categories">
+  in categories
+  
+  <a href="/categories/#codes" title="codes" target="_blank">codes</a>&nbsp;
+  
+</span>
+
+
+<span class="tags">
+  tagged with 
+  
+  <a href="/tags/#living" title="living" target="_blank">living</a>&nbsp;
+  
+  <a href="/tags/#project" title="project" target="_blank">project</a>&nbsp;
+  
+  <a href="/tags/#web site" title="web site" target="_blank">web site</a>&nbsp;
+  
+  <a href="/tags/#GTD" title="GTD" target="_blank">GTD</a>&nbsp;
+  
+</span>
+
+</section>
+<section class="comment">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'suprod'; // required: replace example with your forum shortname
+
+/* * * DON`T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript"  target="_blank">comments powered by Disqus.</a></noscript>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $(document).keydown(function(e) {
+    var url = false;
+        if (e.which == 37 || e.which == 74) {  // Left arrow and J
+            
+        url = '/2013/11/hello-jekyll%26github-pages/';
+        
+        }
+        else if (e.which == 39 || e.which == 75) {  // Right arrow and K
+            
+        }
+        if (url) {
+            window.location = url;
+        }
+  });
+})
+</script>
 
 
         </article>

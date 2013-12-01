@@ -4,7 +4,7 @@
 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_shortname = 'suprod'; // required: replace example with your forum shortname
 
-/* * * DON'T EDIT BELOW THIS LINE * * */
+/* * * DONT EDIT BELOW THIS LINE * * */
 (function () {
     var s = document.createElement('script'); s.async = true;
     s.type = 'text/javascript';
@@ -12,6 +12,6 @@ var disqus_shortname = 'suprod'; // required: replace example with your forum sh
     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 }());
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript"  target="_blank">comments powered by Disqus.</a></noscript>
 </section>
 

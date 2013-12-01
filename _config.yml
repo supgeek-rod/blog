@@ -1,5 +1,5 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-auther: supgeek.rod
+author: supgeek.rod
 pygments: true 
 paginate: 24

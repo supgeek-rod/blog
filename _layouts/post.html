@@ -7,7 +7,7 @@ layout: default
 </section>
 <section class="meta">
 <span class="author">
-  <a href="http://geeklu.com">{{ site.author }}</a>
+  <a href="http://zhanghongrou.com.cn">{{ site.author }}</a>
 </span>
 <span class="time">
   /
@@ -15,13 +15,13 @@ layout: default
 </span>
 <br />
 <span class="license">
-  Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">(CC) BY-NC-SA</a>
+  Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">(CC) BY-NC-SA</a>
 </span>
 {% if page.categories %}
 <span class="categories">
   in categories
   {% for cat in page.categories %}
-  <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+  <a href="/categories/#{{ cat }}" title="{{ cat }}" target="_blank">{{ cat }}</a>&nbsp;
   {% endfor %}
 </span>
 {% endif %}
@@ -29,7 +29,7 @@ layout: default
 <span class="tags">
   tagged with 
   {% for tag in page.tags %}
-  <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
+  <a href="/tags/#{{ tag }}" title="{{ tag }}" target="_blank">{{ tag }}</a>&nbsp;
   {% endfor %}
 </span>
 {% endif %}
