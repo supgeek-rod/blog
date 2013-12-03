@@ -76,13 +76,13 @@ body>div {
     -moz-box-shadow: 0 0 10px 0 #cfcfcf;
     -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
     box-shadow: 0 0 10px 0 #cfcfcf;
-    border-top: 6px solid #EE0000;
+    border-top: 12px solid #F9FFFB;
 }
 h1 {
     font-size: 28px;
     line-height: 28px;
     margin: 0 0 28px 0;
-	background-color: #000;
+	background-color: #B14763;
 	color: #fff;
 	display: inline-block;
 	padding: 12px;
@@ -249,4 +249,7 @@ footer a:hover {
     -webkit-box-shadow: rgba(0,0,0,1.0) 0px 0px 2px,rgba(255,255,255,0.15) 0px 1px 1px inset;
     text-decoration: none;
 }
+
+/* sup.rod ++ */
+.content img { width:100%; }
 
