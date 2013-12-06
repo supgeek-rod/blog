@@ -12,7 +12,8 @@ hello, jekyll & github pages
 从sae转到homezz，不到一个月    
 今天把jekyll折腾起来了，push到gitpub pages作为一个new blog    
 这样写blog是件很cool的事儿，不是吗？    
-在vim上，黑底白字，wirte blog跟code似的,fell die('酷毙了');    
+在vim上，黑底白字，write blog跟code似的,fell die('酷毙了');    
+
 
 #### 感谢
 - Mort Yao翻译整理的 <a href="http://www.soimort.org/posts/101/" target="_blank">《像黑客一样写博客——Jekyll入门》</a>
