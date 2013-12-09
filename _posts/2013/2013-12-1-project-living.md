@@ -19,5 +19,6 @@ tags:
 ![living](../../../../post_pic/living/living_readme.png)
 ![living](../../../../post_pic/living/living_home.png)
 ![living](../../../../post_pic/living/living_home2.png)
+![living](../../../../post_pic/living/living_center.png)
 ![living](../../../../post_pic/living/living_signin.png)
 ![living](../../../../post_pic/living/living_register.png)

@@ -4,8 +4,7 @@ layout: page
 comments: yes 
 ---
   
-sup.rod
-coder by beijing 
+Hi,I'm sup.rod
 
-个人邮箱:supgeek.rod@gmail.com      
+个人邮箱:supgeek.rod(AT)gmail.com      
 github : [https://github.com/supgeek-rod](https://github.com/supgeek-rod)
