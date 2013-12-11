@@ -1,7 +1,11 @@
 ---
 layout: page
-title: leave words
+title: talk to oneself
 comments: yes
 ---
 
-你可以在这里给我留言
+####2013-12
+-	快过年了，真想回家愉快地度过青葱的最后一个除夕
+-	奔二十了，越长大越差劲
+
+-------
