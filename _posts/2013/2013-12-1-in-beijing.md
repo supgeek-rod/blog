@@ -34,8 +34,8 @@ tags:
 
 学校秋游 －红叶岭    
 ![红叶岭](../../../../post_pic/beijing/IMG_3654.jpg)
-![残城](../../../../post_pic/beijing/IMG_0907.jpg)
-![class-71](../../../../post_pic/beijing/IMG_0988.jpg)
+![残城](../../../../post_pic/beijing/lamp71-1.png)
+![class-71](../../../../post_pic/beijing/lamp71-2.png)
 
 karaoke   
 ![karaoke](../../../../post_pic/beijing/IMG_3630.jpg)
