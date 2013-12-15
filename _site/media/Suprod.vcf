@@ -6,7 +6,7 @@ FN:rod Sup
 item1.EMAIL;type=INTERNET;type=pref:supgeek.rod@gmail.com
 item1.X-ABLabel:电子邮箱
 TEL;type=IPHONE;type=CELL;type=VOICE;type=pref:15600688776
-NOTE:一名热爱科技人愤世嫉俗的文艺男青年
+NOTE:一名热爱科技/人文/艺术，愤世嫉俗的文艺男青年
 item2.URL;type=pref:supgeek-rod.com
 item2.X-ABLabel:_$!<HomePage>!$_
 BDAY:1991-01-20
