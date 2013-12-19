@@ -2,9 +2,18 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/2013/12/%E8%87%AA%E4%BB%A5%E4%B8%BA%E6%98%AF%E5%9C%B0%E5%AF%B9%E8%87%AA%E5%B7%B1%E7%9A%84%E8%AE%A4%E8%AF%86/</loc>
+    <loc>/2013/12/webStudy-group/</loc>
     
-    <lastmod>2013-12-15T00:00:00+08:00</lastmod>
+    <lastmod>2013-12-19T00:00:00+08:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>/2013/12/Just-do-it/</loc>
+    
+    <lastmod>2013-12-19T00:00:00+08:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
