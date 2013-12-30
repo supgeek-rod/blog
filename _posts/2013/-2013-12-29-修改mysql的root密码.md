@@ -1,0 +1,21 @@
+---
+layout: post
+title: Just do it
+categories:
+- Lifes
+tags:
+- just doit
+- free
+
+---
+
+撒丫子奔跑    
+忽略花花世界中糟糕的事物    
+不被其羁绊    
+掌握节奏，一如即往    
+点点滴滴的进步    
+分分厘厘的成长   
+不气馁，不放弃    
+淡泊宁静    
+坚定信念，相信自己    
+勇于自我，free do me

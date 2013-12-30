@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In beijing
+title: In beijing(1)
 categories:
 - Lifes
 tags:
@@ -8,8 +8,6 @@ tags:
 - study life
 - 
 ---
-
-记录在北京学习的一段日子
 
 晚上的天安门    
 ![天安门](../../../../post_pic/beijing/IMG_3285.jpg)
@@ -26,7 +24,7 @@ tags:
 ![love beijing T恤](../../../../post_pic/beijing/IMG_3538.jpg)
 
 北海公园 －白塔    
-![白塔](../../../../post_pic/beijing/IMG_3550.jpg)
+![白塔](../../../../post_pic/beijing/IMG_3584.jpg)
 ![明信片](../../../../post_pic/beijing/IMG_3611.jpg)
 
 西单的apple store    

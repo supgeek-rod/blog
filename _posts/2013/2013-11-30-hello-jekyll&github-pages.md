@@ -2,9 +2,12 @@
 layout: post
 title: Hello jekyll&github pages
 categories:
-- Lifes 
+- Codes 
 tags:
 - cool
+- jekyll
+- github
+
 ---
 
 hello, jekyll & github pages
