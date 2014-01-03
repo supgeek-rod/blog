@@ -9,6 +9,13 @@ Hi,I'm sup.rod
 热爱科技、人文和艺术，也热爱生活   
 人生苦短，策马折腾
 
+###目前正在做的事
+- artCoder.me
+- supliving.sinaapp.com
+- lamp-gotcha
+- 
+
+
 
 电子名片：[vcard](../../../../media/Suprod.vcf)    
 个人邮箱:supgeek.rod(AT)gmail.com      
