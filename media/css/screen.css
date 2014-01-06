@@ -76,16 +76,17 @@ body>div {
     -moz-box-shadow: 0 0 10px 0 #cfcfcf;
     -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
     box-shadow: 0 0 10px 0 #cfcfcf;
-    border-top: 12px solid #F9FFFB;
+    border-top: 12px solid #FFF;
 }
 h1 {
     font-size: 28px;
     line-height: 28px;
     margin: 0 0 28px 0;
-	background-color: #B14763;
-	color: #fff;
+	background-color: #F1F1F1;
+	border-left:8px solid red;
+	color: #444;
 	display: inline-block;
-	padding: 12px;
+	padding:8px 8px 8px 12px;
 }
 h2 {
     font-size: 26px;

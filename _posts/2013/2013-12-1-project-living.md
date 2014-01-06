@@ -22,8 +22,8 @@ apple产品自带这三个小软件，简洁很实用。但我想，如果能合
 
 欢迎各位加入一起开发，以自由开源为前提，折腾时间,技术成长，结交朋友为目的    
 项目代码托管在 [GITHUB](https://github.com/supgeek-rod/living)    
-项目主页: [Home](https://github.io/supgeek-rod/living)    
-SAE demo: [Demo](http:supliving.sinaapp.com)
+项目主页: [Home](https://supgeek-rod.github.io/living)    
+SAE demo: [Demo](http://supliving.sinaapp.com)
 
 
 ### living 这是效果图
