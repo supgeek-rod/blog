@@ -17,7 +17,7 @@ Hi,I'm sup.rod
 
 
 ####Contact me
-Email:supgeek.rod(AT)gmail.com      
-GitHub: [https://github.com/supgeek-rod](https://github.com/supgeek-rod)   
-SegmentFault: [http://segmentfault.com/u/rod](http://segmentfault.com/u/rod)    
-V2EX: [http://v2ex.com/member/suprod](http://v2ex.com/member/suprod)
+- Email:supgeek.rod(AT)gmail.com      
+- GitHub: [https://github.com/supgeek-rod](https://github.com/supgeek-rod)   
+- SegmentFault: [http://segmentfault.com/u/rod](http://segmentfault.com/u/rod)    
+- V2EX: [http://v2ex.com/member/suprod](http://v2ex.com/member/suprod)
