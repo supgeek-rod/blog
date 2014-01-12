@@ -1,5 +1,0 @@
-markdown: rdiscount
-permalink: /:year/:month/:title/
-author: supgeek.rod
-pygments: true 
-paginate: 24
