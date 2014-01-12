@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="supgeek.rod" />
-    <title>Just do it | supgeek.rod</title>
+    <title>修改MySQL的root用户密码 | supgeek.rod</title>
     <link href="data:image/x-icon;base64,Z" rel="icon" type="image/x-icon" />
     <link href="/feed/" rel="alternate" title="supgeek.rod" type="application/atom+xml" />
     
@@ -26,20 +26,41 @@
           <a href="/about" class="ss-icon" title="About" >user</a>
           <a href="/feed" class="ss-icon" title="Subscribe by RSS" >rss</a>
         </div>
-        <h1>Just do it</h1>
+        <h1>修改MySQL的root用户密码</h1>
         </header>
         <hr>
         <article class="content">
         <section class="post">
-<p>撒丫子奔跑  <br/>
-忽略花花世界中糟糕的事物  <br/>
-不被其羁绊  <br/>
-掌握节奏，一如即往  <br/>
-点点滴滴的进步  <br/>
-分分厘厘的成长 <br/>
-不气馁，不放弃  <br/>
-淡泊宁静  <br/>
-坚定信念，相信自己，勇于自我</p>
+<p>各版本在各种系统中的实际代码可以不一样，遇到问题照着解决问题的思路总是能成功的</p>
+
+<h2>第一次设置root密码</h2>
+
+<p>使用空密码登陆root用户，进行修改root密码</p>
+
+<pre><code>mysql -u root
+mysql&gt; SET PASSWORD FOR 'root'@'localhost' = PASSWORD('新密码');
+</code></pre>
+
+<h2>忘记root密码</h2>
+
+<p>忘记了root用户密码的情况，修改起来就麻烦一点。 <br/>
+第一步，先结束MySQL的进程
+第二步，不检查权限的方式启动MySQL</p>
+
+<pre><code>safe_MySQLd --skip-grant-tables &amp;  
+// safe_MySQLd命令不存在可以是因为版本原因，应该使用下面这条命令
+// MySQLd --skip-grant-tables &amp; 
+</code></pre>
+
+<p>第三步，使用root用户空密码登陆
+第四步，修改密码并提交修改</p>
+
+<pre><code>MySQL&gt; update MySQL.user set password=PASSWORD('新密码') where User='root';   
+MySQL&gt; flush privileges;   // 千万别忘了这一步,否则修改不会生效
+MySQL&gt; quit  
+</code></pre>
+
+<p>结束MySQL后，再正常启动就可以修改新密码登陆了</p>
 
 </section>
 <section class="meta">
@@ -48,7 +69,7 @@
 </span>
 <span class="time">
   /
-  <time datetime="2013-12-19">2013-12-19</time>
+  <time datetime="2014-01-07">2014-01-07</time>
 </span>
 <br />
 <span class="license">
@@ -58,7 +79,7 @@
 <span class="categories">
   in categories
   
-  <a href="/categories/#thinks" title="thinks" target="_blank">thinks</a>&nbsp;
+  <a href="/categories/#codes" title="codes" target="_blank">codes</a>&nbsp;
   
 </span>
 
@@ -66,9 +87,9 @@
 <span class="tags">
   tagged with 
   
-  <a href="/tags/#just doit" title="just doit" target="_blank">just doit</a>&nbsp;
+  <a href="/tags/#MySQL" title="MySQL" target="_blank">MySQL</a>&nbsp;
   
-  <a href="/tags/#free" title="free" target="_blank">free</a>&nbsp;
+  <a href="/tags/#root" title="root" target="_blank">root</a>&nbsp;
   
 </span>
 
@@ -97,13 +118,11 @@ $(function(){
     var url = false;
         if (e.which == 37 || e.which == 74) {  // Left arrow and J
             
-        url = '/2013/12/project-living/';
+        url = '/2013/12/Just-do-it/';
         
         }
         else if (e.which == 39 || e.which == 75) {  // Right arrow and K
             
-        url = '/2014/01/%E4%BF%AE%E6%94%B9MySQL%E7%9A%84root%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81/';
-        
         }
         if (url) {
             window.location = url;
