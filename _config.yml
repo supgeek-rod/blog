@@ -1,30 +1,16 @@
-markdown: rdiscount
-pygments: true
-permalink: /:year/:month/:day/:title.html
-name: "Sup Rod"
-markdown: rdiscount
-
-author: "Rod"
-atom-baseurl: "http://supgeek-rod.com"
-disqus: "gopherwood"
-
-navigations:
-  - title: Archive
-    class: fa fa-list-ul
-    href: /archive.html
-  - title: Tags
-    class: fa fa-tags
-    href: /tags.html
-  - title: About
-    class: fa fa-user
-    href: /about.html
-  - title: Gallery
-    class: fa fa-film
-    href: http://foto.lhzhang.com
-  - title: Blogroll
-    class: fa fa-link
-    href: /links.html
-  - title: Subscribe
-    class: fa fa-rss
-    href: /atom.xml
-
+markdown: redcarpet
+redcarpet:
+  extensions: ["autolink", "tables", "strikethrough"]
+permalink: /:year/:month/:day/:title 
+title: Sup Rod 
+url: http://supgeek-rod.com
+githubEditBaseURL: https://github.com/
+subscribe: http://supgeek-rod.com/atom.xml
+exclude: [ README.md, newpost.rb ]
+domain: supgeek-rod.com
+author: Sup Rod
+email: supgeek-rod@gmail.com
+twitterID: notwitter 
+googleAnalyticsID: 
+disqusShortname: 小张张
+timezone: America/New_York

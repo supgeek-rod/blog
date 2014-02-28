@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>Sup Rod</title>
- <link href="http://supgeek-rod.com/atom.xml" rel="self"/>
- <link href="http://supgeek-rod.com"/>
- <updated>2014-02-23T13:54:41+08:00</updated>
- <id>http://supgeek-rod.com</id>
- <author>
-   <name>Rod</name>
- </author>
-
- 
- 
+  <title>Sup Rod</title>
+  <link href="http://supgeek-rod.com/atom.xml" rel="self"/>
+  <link href="http://supgeek-rod.com" />
+  <updated>2014-02-28T10:19:17-05:00</updated>
+  <id>http://supgeek-rod.com/</id>
+  <author>
+    <name>Sup Rod</name>
+    <email>supgeek-rod@gmail.com</email>
+  </author>
+  
+  <entry>
+    <title>又一个新blog</title>
+    <link href="http://supgeek-rod.com/2014/02/28/new-blog"/>
+    <updated>2014-02-28T23:13:45Z</updated>
+    <id>http://supgeek-rod.com/2014/02/28/new-blog</id>
+    <content type="html">&lt;p&gt;Hello World,&lt;br&gt;
+这是Rod的又一个新的博客，使用jekyll搭建在GitHub Pages上。&lt;br&gt;
+祝愿他能坚持一直一直的写下去&lt;/p&gt;
+</content>
+  </entry>
+  
 </feed>

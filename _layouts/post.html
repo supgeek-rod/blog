@@ -1,69 +1,31 @@
 ---
 layout: default
 ---
-
+<div class="wrapper">
 <article>
-  <section class="title">
-    <h2>{{ page.title }} </h2>
-  </section>
-  <section class="meta">
-  <span class="time">
-    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
-  </span>
-  {% if page.tags %}
-  <span class="tags">
-    {% for tag in page.tags %}
-    <a href="/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
-    {% endfor %}
-  </span>
-  {% endif %}
-  </section>
-  <section class="post">
-  {{ content }}
-  </section>
-  {% if page.guid %}
-  <script type="text/javascript">
-      var disqus_shortname = '{{ site.disqus }}';
-      var disqus_identifier = '{{ page.guid }}';
-
-      function leave_comment() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          $("#leave_comment_link").css("display", "none");
-          $("#collapse_comment_link").css("display", "");
-      };
-      function collapse_comment() {
-          // document.getElementById("disqus_thread").innerHTML = '';
-          $("#disqus_thread").slideUp(400, function() {
-              $("#disqus_thread").empty();
-              $("#leave_comment_link").css("display", "");
-              $("#collapse_comment_link").css("display", "none");
-              $("#disqus_thread").css("display", "");
-          });
-      };
-  </script>
-  <div class="divider">
-    <span>
-    {% if page.previous %}
-    <a href="{{ page.previous.url }}"><i class="fa fa-chevron-left"></i></a>
-    {% else %}
-    <i class="fa fa-circle"></i>
-    {% endif %}
-    </span>
-    <span><a href="javascript:leave_comment();" id="leave_comment_link"><i class="fa fa-comment-o"></i></a></span>
-    <span><a href="javascript:collapse_comment();" id="collapse_comment_link" style="display:none;"><i class="fa fa-chevron-up"></i></a></span>
-    <span>
-    {% if page.next %}
-    <a href="{{ page.next.url }}"><i class="fa fa-chevron-right"></i></a>
-    {% else %}
-    <i class="fa fa-circle"></i>
-    {% endif %}
-    </span>
-  </div>
-  <section class="comment">
-  <div id="disqus_thread"></div>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </section>
-  {% endif %}
+<h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+<span class="post-date">{{ page.date | date_to_long_string }}</span>
+{{ content }}
 </article>
+<div class="tags">
+{% for tag in page.tags %}
+<li><a href="/tag/#{{ tag }}">#{{ tag }}</a></li>
+{% endfor %}
+</div>
+<div class="meta">
+<a href="{{site:githubEditBaseURL}}{{ page.path }}">编辑本文</a> <a href="https://twitter.com/share?url={{site.url}}{{page.url}}&amp;via=ztpala&amp;text={{page.title}}" target="_blank">发推评论</a> 
+</div>
+<ul class="pager">
+    {% if page.previous %}
+    <li class="previous">
+    <a href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+    </li><small>←j</small>
+    {% endif %}
+    {% if page.next %}<small>k→</small>
+    <li class="next">
+    <a href="{{ page.next.url }}" class="pull-right">{{ page.next.title }} &rarr;</a>
+    </li>
+    {% endif %}   
+</ul>
+</div>
+<div id="disqus_thread"></div>
