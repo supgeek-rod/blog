@@ -11,9 +11,7 @@ layout: default
 {% for tag in page.tags %}
 <li><a href="/tag/#{{ tag }}">#{{ tag }}</a></li>
 {% endfor %}
-</div>
-<div class="meta">
-<a href="{{site:githubEditBaseURL}}{{ page.path }}">编辑本文</a> <a href="https://twitter.com/share?url={{site.url}}{{page.url}}&amp;via=ztpala&amp;text={{page.title}}" target="_blank">发推评论</a> 
+<a target="blank" href="{{site:githubEditBaseURL}}{{ page.path }}">编辑本文</a> 
 </div>
 <ul class="pager">
     {% if page.previous %}
