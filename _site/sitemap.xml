@@ -17,5 +17,40 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+      <loc>http://supgeek-rod.com/2014/01/07/%E4%BF%AE%E6%94%B9MySQL%E7%9A%84root%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81/</loc>
+    <lastmod>2014-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+      <loc>http://supgeek-rod.com/2013/12/19/Just-do-it/</loc>
+    <lastmod>2013-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+      <loc>http://supgeek-rod.com/2013/12/01/project-living/</loc>
+    <lastmod>2013-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+      <loc>http://supgeek-rod.com/2013/12/01/in-beijing/</loc>
+    <lastmod>2013-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+      <loc>http://supgeek-rod.com/2013/11/30/hello-jekyll%26github-pages/</loc>
+    <lastmod>2013-11-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
 </urlset>

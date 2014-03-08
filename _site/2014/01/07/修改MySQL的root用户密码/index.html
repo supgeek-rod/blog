@@ -2,7 +2,7 @@
   <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
   <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
-    <title>又一个新blog</title>
+    <title>修改MySQL的root用户密码</title>
     <meta name="author" content="Sup Rod"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="apple-itunes-app" content="app-id=774474904">
@@ -23,25 +23,52 @@
     </div>
     <div class="wrapper">
 <article>
-<h1><a href="http://supgeek-rod.com/2014/02/28/new-blog">又一个新blog</a></h1>
-<span class="post-date">28 February 2014</span>
-<p>Hello World,<br>
-这是Rod的又一个新的博客，使用jekyll搭建在GitHub Pages上。<br>
-祝愿他能坚持一直一直的写下去</p>
+<h1><a href="http://supgeek-rod.com/2014/01/07/%E4%BF%AE%E6%94%B9MySQL%E7%9A%84root%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81">修改MySQL的root用户密码</a></h1>
+<span class="post-date">07 January 2014</span>
+<p>各版本在各种系统中的实际代码可以不一样，遇到问题照着解决问题的思路总是能成功的</p>
+
+<h2>第一次设置root密码</h2>
+
+<p>使用空密码登陆root用户，进行修改root密码</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">mysql -u root
+mysql&gt; SET PASSWORD FOR &#39;root&#39;@&#39;localhost&#39; = PASSWORD(&#39;新密码&#39;);
+</code></pre></div>
+<h2>忘记root密码</h2>
+
+<p>忘记了root用户密码的情况，修改起来就麻烦一点。<br>
+第一步，先结束MySQL的进程
+第二步，不检查权限的方式启动MySQL</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">safe_MySQLd --skip-grant-tables &amp;  
+// safe_MySQLd命令不存在可以是因为版本原因，应该使用下面这条命令
+// MySQLd --skip-grant-tables &amp; 
+</code></pre></div>
+<p>第三步，使用root用户空密码登陆
+第四步，修改密码并提交修改</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">MySQL&gt; update MySQL.user set password=PASSWORD(&#39;新密码&#39;) where User=&#39;root&#39;;   
+MySQL&gt; flush privileges;   // 千万别忘了这一步,否则修改不会生效
+MySQL&gt; quit  
+</code></pre></div>
+<p>结束MySQL后，再正常启动就可以修改新密码登陆了</p>
 
 </article>
 <div class="tags">
 
-<li><a href="/tag/#new blog">#new blog</a></li>
+<li><a href="/tag/#MySQL">#MySQL</a></li>
 
-<a target="blank" href="https://github.com/supgeek-rod/sup.rod/tree/gh-pages/_posts/2014/2014-2-28-new-blog.md">编辑本文</a> 
+<li><a href="/tag/#root">#root</a></li>
+
+<a target="blank" href="https://github.com/supgeek-rod/sup.rod/tree/gh-pages/_posts/2014/2014-1-7-修改MySQL的root用户密码.md">编辑本文</a> 
 </div>
 <ul class="pager">
     
     <li class="previous">
-    <a href="/2014/01/07/%E4%BF%AE%E6%94%B9MySQL%E7%9A%84root%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81">&larr; 修改MySQL的root用户密码</a>
+    <a href="/2013/12/19/Just-do-it">&larr; Just do it</a>
     </li><small>←j</small>
     
+    <small>k→</small>
+    <li class="next">
+    <a href="/2014/02/28/new-blog" class="pull-right">又一个新blog &rarr;</a>
+    </li>
        
 </ul>
 </div>
@@ -72,10 +99,12 @@
         var url = false;
           if (e.which == 37 || e.which == 74) {  // Left arrow key code
             
-            url = '/2014/01/07/%E4%BF%AE%E6%94%B9MySQL%E7%9A%84root%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81';
+            url = '/2013/12/19/Just-do-it';
             
           }
           else if (e.which == 39 || e.which == 75) {  // Right arrow key code
+            
+            url = '/2014/02/28/new-blog';
             
           }
           if (url) {

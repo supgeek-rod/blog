@@ -3,7 +3,7 @@
   <title>Sup Rod</title>
   <link href="http://supgeek-rod.com/atom.xml" rel="self"/>
   <link href="http://supgeek-rod.com" />
-  <updated>2014-03-08T07:51:21-05:00</updated>
+  <updated>2014-03-08T12:11:19-05:00</updated>
   <id>http://supgeek-rod.com/</id>
   <author>
     <name>Sup Rod</name>
@@ -18,6 +18,149 @@
     <content type="html">&lt;p&gt;Hello World,&lt;br&gt;
 这是Rod的又一个新的博客，使用jekyll搭建在GitHub Pages上。&lt;br&gt;
 祝愿他能坚持一直一直的写下去&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>修改MySQL的root用户密码</title>
+    <link href="http://supgeek-rod.com/2014/01/07/%E4%BF%AE%E6%94%B9MySQL%E7%9A%84root%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81"/>
+    <updated>2014-01-07T00:00:00-05:00</updated>
+    <id>http://supgeek-rod.com/2014/01/07/修改MySQL的root用户密码</id>
+    <content type="html">&lt;p&gt;各版本在各种系统中的实际代码可以不一样，遇到问题照着解决问题的思路总是能成功的&lt;/p&gt;
+
+&lt;h2&gt;第一次设置root密码&lt;/h2&gt;
+
+&lt;p&gt;使用空密码登陆root用户，进行修改root密码&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;mysql -u root
+mysql&amp;gt; SET PASSWORD FOR &amp;#39;root&amp;#39;@&amp;#39;localhost&amp;#39; = PASSWORD(&amp;#39;新密码&amp;#39;);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;忘记root密码&lt;/h2&gt;
+
+&lt;p&gt;忘记了root用户密码的情况，修改起来就麻烦一点。&lt;br&gt;
+第一步，先结束MySQL的进程
+第二步，不检查权限的方式启动MySQL&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;safe_MySQLd --skip-grant-tables &amp;amp;  
+// safe_MySQLd命令不存在可以是因为版本原因，应该使用下面这条命令
+// MySQLd --skip-grant-tables &amp;amp; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;第三步，使用root用户空密码登陆
+第四步，修改密码并提交修改&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;MySQL&amp;gt; update MySQL.user set password=PASSWORD(&amp;#39;新密码&amp;#39;) where User=&amp;#39;root&amp;#39;;   
+MySQL&amp;gt; flush privileges;   // 千万别忘了这一步,否则修改不会生效
+MySQL&amp;gt; quit  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;结束MySQL后，再正常启动就可以修改新密码登陆了&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Just do it</title>
+    <link href="http://supgeek-rod.com/2013/12/19/Just-do-it"/>
+    <updated>2013-12-19T00:00:00-05:00</updated>
+    <id>http://supgeek-rod.com/2013/12/19/Just-do-it</id>
+    <content type="html">&lt;p&gt;撒丫子奔跑&lt;br&gt;
+忽略花花世界中糟糕的事物&lt;br&gt;
+不被其羁绊&lt;br&gt;
+掌握节奏，一如即往&lt;br&gt;
+点点滴滴的进步&lt;br&gt;
+分分厘厘的成长&lt;br&gt;
+不气馁，不放弃&lt;br&gt;
+淡泊宁静&lt;br&gt;
+坚定信念，相信自己，勇于自我&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>living项目</title>
+    <link href="http://supgeek-rod.com/2013/12/01/project-living"/>
+    <updated>2013-12-01T00:00:00-05:00</updated>
+    <id>http://supgeek-rod.com/2013/12/01/project-living</id>
+    <content type="html">&lt;h2&gt;关于living项目&lt;/h2&gt;
+
+&lt;p&gt;这是一个 &lt;em&gt;生活&lt;/em&gt; 和 &lt;em&gt;工作&lt;/em&gt; 的 &lt;em&gt;计划&lt;/em&gt; &lt;em&gt;整理&lt;/em&gt; &lt;em&gt;记录&lt;/em&gt; 工具 释放大脑中琐碎零乱的事物，让你全身心投入其中，以更高效更轻松更便捷地完成你的任务。&lt;/p&gt;
+
+&lt;p&gt;其实呢，就是集合 &lt;em&gt;提醒事项&lt;/em&gt; &lt;em&gt;备忘录&lt;/em&gt; &lt;em&gt;日历&lt;/em&gt; 的通用功能，基于在WEB平台的一个APP。&lt;br&gt;
+apple产品自带这三个小软件，简洁很实用。但我想，如果能合成一个软件会更方便.&lt;br&gt;
+要是同学朋友们，在安卓 桌面端都能使用，那就可好。&lt;br&gt;
+要是能恰当地加入简单的社交元素是最好不过的。&lt;br&gt;
+目前，这些正是我断断续续在努力的&lt;/p&gt;
+
+&lt;p&gt;欢迎各位加入一起开发，以自由开源为前提，折腾时间,技术成长，结交朋友为目的&lt;br&gt;
+项目代码托管在 &lt;a href=&quot;https://github.com/supgeek-rod/living&quot;&gt;GITHUB&lt;/a&gt;&lt;br&gt;
+项目主页: &lt;a href=&quot;https://supgeek-rod.github.io/living&quot;&gt;Home&lt;/a&gt;&lt;br&gt;
+SAE demo: &lt;a href=&quot;http://supliving.sinaapp.com&quot;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;living 这是效果图&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../post_pic/living/home1.png&quot; alt=&quot;living&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../post_pic/living/home2.png&quot; alt=&quot;living&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../post_pic/living/login.png&quot; alt=&quot;living&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../post_pic/living/center.png&quot; alt=&quot;living&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../post_pic/living/note.png&quot; alt=&quot;living&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../post_pic/living/account.png&quot; alt=&quot;living&quot;&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>In beijing(1)</title>
+    <link href="http://supgeek-rod.com/2013/12/01/in-beijing"/>
+    <updated>2013-12-01T00:00:00-05:00</updated>
+    <id>http://supgeek-rod.com/2013/12/01/in-beijing</id>
+    <content type="html">&lt;p&gt;晚上的天安门&lt;br&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/IMG_3285.jpg&quot; alt=&quot;天安门&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;学校环境&lt;br&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/IMG_3550.jpg&quot; alt=&quot;校园&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;班级活动&lt;br&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/IMG_3410.jpg&quot; alt=&quot;class-71&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;居庸关长城&lt;br&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/IMG_3449.jpg&quot; alt=&quot;居庸关&quot;&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/IMG_3454.jpg&quot; alt=&quot;长城&quot;&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/IMG_3538.jpg&quot; alt=&quot;love beijing T恤&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;北海公园 －白塔&lt;br&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/IMG_3584.jpg&quot; alt=&quot;白塔&quot;&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/IMG_3611.jpg&quot; alt=&quot;明信片&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;西单的apple store&lt;br&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/IMG_3572.jpg&quot; alt=&quot;西单 apple store&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;学校秋游 －红叶岭&lt;br&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/IMG_3654.jpg&quot; alt=&quot;红叶岭&quot;&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/lamp71-1.png&quot; alt=&quot;残城&quot;&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/lamp71-2.png&quot; alt=&quot;class-71&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;karaoke&lt;br&gt;
+&lt;img src=&quot;../../../../post_pic/beijing/IMG_3630.jpg&quot; alt=&quot;karaoke&quot;&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Hello jekyll&github pages</title>
+    <link href="http://supgeek-rod.com/2013/11/30/hello-jekyll%26github-pages"/>
+    <updated>2013-11-30T00:00:00-05:00</updated>
+    <id>http://supgeek-rod.com/2013/11/30/hello-jekyll&github-pages</id>
+    <content type="html">&lt;p&gt;hello, jekyll &amp;amp; github pages&lt;/p&gt;
+
+&lt;p&gt;从sae转到homezz，不到一个月&lt;br&gt;
+今天把jekyll折腾起来了，push到gitpub pages作为一个new blog&lt;br&gt;
+这样写blog是件很cool的事儿，不是吗？&lt;br&gt;
+在vim上，黑底白字，write blog跟code似的,fell die(&amp;#39;酷毙了&amp;#39;);    &lt;/p&gt;
+
+&lt;h4&gt;感谢&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mort Yao翻译整理的 &lt;a href=&quot;http://www.soimort.org/posts/101/&quot; target=&quot;_blank&quot;&gt;《像黑客一样写博客——Jekyll入门》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;阮一峰写的 &lt;a href=&quot;http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html&quot; target=&quot;_blank&quot;&gt;《搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Luke 的jekyll主题&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   
