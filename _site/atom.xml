@@ -3,12 +3,32 @@
   <title>Sup Rod</title>
   <link href="http://supgeek-rod.com/atom.xml" rel="self"/>
   <link href="http://supgeek-rod.com" />
-  <updated>2014-03-08T12:11:19-05:00</updated>
+  <updated>2014-03-10T08:08:31-04:00</updated>
   <id>http://supgeek-rod.com/</id>
   <author>
     <name>Sup Rod</name>
     <email>supgeek.rod@gmail.com</email>
   </author>
+  
+  <entry>
+    <title>思考某件事是否有意义这个问题是否有意义</title>
+    <link href="http://supgeek-rod.com/2014/03/10/%E6%80%9D%E8%80%83%E6%9F%90%E4%BB%B6%E4%BA%8B%E6%98%AF%E5%90%A6%E6%9C%89%E6%84%8F%E4%B9%89%E8%BF%99%E4%B8%AA%E9%97%AE%E9%A2%98%E6%98%AF%E5%90%A6%E6%9C%89%E6%84%8F%E4%B9%89"/>
+    <updated>2014-03-10T00:00:00-04:00</updated>
+    <id>http://supgeek-rod.com/2014/03/10/思考某件事是否有意义这个问题是否有意义</id>
+    <content type="html">&lt;p&gt;是否要学HTML5呢？是否立即开始学HTML5呢？还是先学CSS3？&lt;br&gt;
+可我是个PHP coder呀？ 是否应该先学Laravel呢？&lt;br&gt;
+或者先整整LINUX，买个便宜的VPS搭个VPN玩玩，还是花百来块钱在二师兄买个VPN包年套餐呢？&lt;/p&gt;
+
+&lt;p&gt;是否是想太多了呢？这样争分夺秒做什么呢？
+梦想,Coder,都是浮云。   &lt;/p&gt;
+
+&lt;p&gt;书本上的阅历才是一生都能够用的上的财富。
+我是先看山《麦田守望者》呢？还是先看《影响力》，还是《格调》，还是《绅士生活》？？？   &lt;/p&gt;
+
+&lt;p&gt;庆幸的是，手头上只有一本韩寒的《杂的文》可以翻翻。&lt;br&gt;
+这真是极好的，睡觉前翻翻。&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>又一个新blog</title>
