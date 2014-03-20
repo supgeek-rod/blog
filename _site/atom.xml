@@ -3,7 +3,7 @@
   <title>Sup Rod</title>
   <link href="http://supgeek-rod.com/atom.xml" rel="self"/>
   <link href="http://supgeek-rod.com" />
-  <updated>2014-03-19T11:25:21-04:00</updated>
+  <updated>2014-03-20T13:36:43-04:00</updated>
   <id>http://supgeek-rod.com/</id>
   <author>
     <name>Sup Rod</name>
@@ -71,38 +71,6 @@
     <content type="html">&lt;p&gt;Hello World,&lt;br&gt;
 这是Rod的又一个新的博客，使用jekyll搭建在GitHub Pages上。&lt;br&gt;
 祝愿他能坚持一直一直的写下去&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>修改MySQL的root用户密码</title>
-    <link href="http://supgeek-rod.com/2014/01/07/%E4%BF%AE%E6%94%B9MySQL%E7%9A%84root%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81"/>
-    <updated>2014-01-07T00:00:00-05:00</updated>
-    <id>http://supgeek-rod.com/2014/01/07/修改MySQL的root用户密码</id>
-    <content type="html">&lt;p&gt;各版本在各种系统中的实际代码可以不一样，遇到问题照着解决问题的思路总是能成功的&lt;/p&gt;
-
-&lt;h2&gt;第一次设置root密码&lt;/h2&gt;
-
-&lt;p&gt;使用空密码登陆root用户，进行修改root密码&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;mysql -u root
-mysql&amp;gt; SET PASSWORD FOR &amp;#39;root&amp;#39;@&amp;#39;localhost&amp;#39; = PASSWORD(&amp;#39;新密码&amp;#39;);
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;忘记root密码&lt;/h2&gt;
-
-&lt;p&gt;忘记了root用户密码的情况，修改起来就麻烦一点。&lt;br&gt;
-第一步，先结束MySQL的进程
-第二步，不检查权限的方式启动MySQL&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;safe_MySQLd --skip-grant-tables &amp;amp;  
-// safe_MySQLd命令不存在可以是因为版本原因，应该使用下面这条命令
-// MySQLd --skip-grant-tables &amp;amp; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;第三步，使用root用户空密码登陆
-第四步，修改密码并提交修改&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;MySQL&amp;gt; update MySQL.user set password=PASSWORD(&amp;#39;新密码&amp;#39;) where User=&amp;#39;root&amp;#39;;   
-MySQL&amp;gt; flush privileges;   // 千万别忘了这一步,否则修改不会生效
-MySQL&amp;gt; quit  
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;结束MySQL后，再正常启动就可以修改新密码登陆了&lt;/p&gt;
 </content>
   </entry>
   
