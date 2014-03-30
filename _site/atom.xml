@@ -3,7 +3,7 @@
   <title>Sup Rod</title>
   <link href="http://supgeek-rod.com/atom.xml" rel="self"/>
   <link href="http://supgeek-rod.com" />
-  <updated>2014-03-20T13:36:43-04:00</updated>
+  <updated>2014-03-30T04:07:44-04:00</updated>
   <id>http://supgeek-rod.com/</id>
   <author>
     <name>Sup Rod</name>
@@ -11,35 +11,48 @@
   </author>
   
   <entry>
+    <title>20140330</title>
+    <link href="http://supgeek-rod.com/2014/03/30/20140330"/>
+    <updated>2014-03-30T00:00:00-04:00</updated>
+    <id>http://supgeek-rod.com/2014/03/30/20140330</id>
+    <content type="html">&lt;p&gt;阳春三月，下午4点。&lt;br&gt;
+窗外就是北大，一条马路之隔。博雅塔就在不远处，不高。北大的屋宇都不高，有很多三层高的灰砖灰瓦结构，三幅屋子围成一个U字，这应该就是老北京的四合院吧。但屋子不老，挺新的。&lt;br&gt;
+道路上，屋子边点缀着喜人的翠绿，阳光正好，没有夏日的毒辣，暖阳阳的。&lt;/p&gt;
+
+&lt;p&gt;望着窗外，一个人在屋里，惬意的很，正适合写点什么。那就写点什么罢。&lt;/p&gt;
+
+&lt;p&gt;还是让我先想想...&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Welcome to the new age</title>
     <link href="http://supgeek-rod.com/2014/03/19/Welcome-to-the-new-age"/>
     <updated>2014-03-19T00:00:00-04:00</updated>
     <id>http://supgeek-rod.com/2014/03/19/Welcome-to-the-new-age</id>
-    <content type="html">&lt;p&gt;半年前听过这首歌，之后偶然听到这个旋律，找了三两天，找到了《Apologize》&lt;br&gt;
-今天看到格莱美2014颁奖典礼上Imagine Dragons的《radioactive》,这才是我一直在寻找的。&lt;/p&gt;
+    <content type="html">&lt;p&gt;几首自己很喜欢的音乐&lt;/p&gt;
 
-&lt;p&gt;The Apocalypse&lt;br&gt;
- &lt;embed src=&quot;http://player.yinyuetai.com/video/player/788120/a_0.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;334&quot; align=&quot;middle&quot;  allowScriptAccess=&quot;sameDomain&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>flower dance</title>
-    <link href="http://supgeek-rod.com/2014/03/19/Flower-dance"/>
-    <updated>2014-03-19T00:00:00-04:00</updated>
-    <id>http://supgeek-rod.com/2014/03/19/Flower-dance</id>
-    <content type="html">&lt;p&gt;flower dance&lt;br&gt;
-&lt;embed src=&quot;http://player.yinyuetai.com/video/player/815902/a_0.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;334&quot; align=&quot;middle&quot;  allowScriptAccess=&quot;sameDomain&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Apologize</title>
-    <link href="http://supgeek-rod.com/2014/03/19/Apologize"/>
-    <updated>2014-03-19T00:00:00-04:00</updated>
-    <id>http://supgeek-rod.com/2014/03/19/Apologize</id>
-    <content type="html">&lt;p&gt;Apologize&lt;br&gt;
-&lt;embed src=&quot;http://player.yinyuetai.com/video/player/211112/a_0.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;334&quot; align=&quot;middle&quot;  allowScriptAccess=&quot;sameDomain&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/p&gt;
+&lt;h3&gt;The Apocalypse&lt;/h3&gt;
+
+&lt;p&gt;&lt;embed src=&quot;http://player.yinyuetai.com/video/player/788120/v_0.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;334&quot; align=&quot;middle&quot;  allowScriptAccess=&quot;sameDomain&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/p&gt;
+
+&lt;p&gt;还在为生计奔波，如何去追寻自己想要的生活&lt;/p&gt;
+
+&lt;h3&gt;Apologize&lt;/h3&gt;
+
+&lt;p&gt;&lt;embed src=&quot;http://player.yinyuetai.com/video/player/211112/v_0.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;334&quot; align=&quot;middle&quot;  allowScriptAccess=&quot;sameDomain&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/p&gt;
+
+&lt;h3&gt;Flower dance&lt;/h3&gt;
+
+&lt;p&gt;&lt;embed src=&quot;http://player.yinyuetai.com/video/player/815902/v_0.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;334&quot; align=&quot;middle&quot;  allowScriptAccess=&quot;sameDomain&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/p&gt;
+
+&lt;p&gt;钢琴是个能陶冶情操的东西，伴随自己平心宁静去追求自己想要的生活&lt;/p&gt;
+
+&lt;h3&gt;Numb&lt;/h3&gt;
+
+&lt;p&gt;&lt;embed src=&quot;http://player.yinyuetai.com/video/player/3375/v_0.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;334&quot; align=&quot;middle&quot;  allowScriptAccess=&quot;sameDomain&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/p&gt;
+
+&lt;p&gt;清楚地知道自己想要做什么，去做就好了&lt;/p&gt;
 </content>
   </entry>
   
