@@ -3,14 +3,21 @@ layout: default
 title: 张同学 
 ---
 <div class="wrapper">
-  <h2>Doing</h2>
-<ul class="postsList">
-  {% include doing-list.html %}
-  <h2>Posts</h2>
-{% for post in site.posts limit:5 %}{% include posts-list.html %} {% endfor %}
-<li><span>{{ site.posts.size }} Posts</span><a href="/archive/">所有文章 +</a></li>
-</ul>
-<h2>Keys</h2>
-<div class="tag-cloud">{% for tag in site.tags %}{% if tag[1].size > 3 %}<a href="/tag/#{{ tag | first }}">{{ tag | first }}<span>{{ tag[1].size }}</span></a> {% endif %}{% endfor %}<a href="/tag">所有Tag <span>{{ site.tags.size }}</span> +</a>
-</div>
+	<h2>Doing</h2>
+	<ul class="postsList">
+		{% include doing-list.html %}
+		<h2>Posts</h2>
+		{% for post in site.posts limit:5 %}{% include posts-list.html %} {% endfor %}
+		<li><a href="/archive/">所有文章 + <small> {{ site.posts.size }} Posts</small></a></li>
+	</ul>
+	<h2>Tags</h2>
+	<div class="tag-cloud">
+		{% for tag in site.tags %}
+		{% if tag[1].size > 0 %}
+			<a href="/tag/#{{ tag | first }}">{{ tag | first }}<span>{{ tag[1].size }}</span></a>
+		{% endif %}
+		{% endfor %}
+		<br>
+		<a href="/tag">所有Tag </a> <span><small>{{ site.tags.size }}+</small></span>
+	</div>
 </div>

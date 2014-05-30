@@ -2,7 +2,7 @@
 layout: post
 title: Hello jekyll&github pages
 categories:
-- Codes 
+- work 
 tags:
 - cool
 - jekyll

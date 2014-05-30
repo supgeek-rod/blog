@@ -2,7 +2,7 @@
 layout: post
 title: living项目
 categories:
-- Codes
+- work
 tags:
 - living
 - project

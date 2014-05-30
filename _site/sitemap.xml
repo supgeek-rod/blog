@@ -4,7 +4,7 @@
 
   <url>
       <loc>http://supgeek-rod.com</loc>
-    <lastmod>2014-05-26</lastmod>
+    <lastmod>2014-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,6 +12,13 @@
   
   <url>
       <loc>http://supgeek-rod.com/2014/05/27/%E7%97%9B%E8%8B%A6%E4%B8%8E%E6%8C%A3%E6%89%8E/</loc>
+    <lastmod>2014-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+      <loc>http://supgeek-rod.com/2014/05/27/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2014-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>

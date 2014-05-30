@@ -2,7 +2,7 @@
 layout: post
 title: In beijing(1)
 categories:
-- Lifes
+- living
 tags:
 - beijing
 - study life

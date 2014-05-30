@@ -5,7 +5,7 @@ tags:
     - Music
     - radioactive
 categories:
-    - life
+    - living
 ---
 
 几首自己很喜欢的音乐
