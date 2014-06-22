@@ -4,11 +4,18 @@
 
   <url>
       <loc>http://supgeek-rod.com</loc>
-    <lastmod>2014-06-11</lastmod>
+    <lastmod>2014-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+      <loc>http://supgeek-rod.com/2014/06/16/%E4%BD%8E%E5%A4%B4%E4%B8%93%E5%BF%83%E8%B5%B0%E8%B7%AF/</loc>
+    <lastmod>2014-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
       <loc>http://supgeek-rod.com/2014/06/07/%E5%8D%B3%E4%BD%BF%E5%86%8D%E5%A4%B1%E8%B4%A5%E4%B9%9F%E4%B8%8D%E8%83%BD%E9%A2%93%E5%BA%9F/</loc>
