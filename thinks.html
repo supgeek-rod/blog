@@ -1,0 +1,13 @@
+---
+layout: default
+title: Think
+permalink: /thinks/
+---
+<div class="wrapper">
+    <h2>Thinks</h2>
+    <ul class="postsList">
+    {% for post in site.categories['think'] %}
+        {% include posts-list.html %}
+    {% endfor %}
+    </ul>
+</div>
