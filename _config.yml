@@ -2,13 +2,13 @@ markdown: redcarpet
 redcarpet:
     extensions: ["autolink", "tables", "strikethrough"]
 permalink: /:year/:month/:day/:title 
-title: Sup Rod 
+title: Rod
 url: http://mr.supgeek-rod.com
 githubEditBaseURL: https://github.com/supgeek-rod/blog/edit/gh-pages/
 subscribe: 
 exclude: [ README.md, newpost.rb ]
-domain: supgeek-rod.com
-author: Sup Rod
+domain: mr.supgeek-rod.com
+author: Rod
 email: supgeek.rod@gmail.com
 twitterID: notwitter 
 googleAnalyticsID: UA-40338826-2
