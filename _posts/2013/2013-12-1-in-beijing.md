@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In beijing(1)
+title: In Beijing(1)
 categories:
 - living
 tags:
