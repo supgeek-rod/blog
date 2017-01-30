@@ -7,7 +7,7 @@ url: http://mr.supgeek-rod.com
 githubEditBaseURL: https://github.com/supgeek-rod/blog/edit/gh-pages/
 subscribe: 
 exclude: [ README.md, newpost.rb ]
-domain: mr.supgeek-rod.com
+domain: www.superodv2.com
 author: Rod
 email: supgeek.rod@gmail.com
 twitterID: notwitter 

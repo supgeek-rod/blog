@@ -11,7 +11,7 @@ layout: default
 {% for tag in page.tags %}
 <li><a href="/tag/#{{ tag }}">#{{ tag }}</a></li>
 {% endfor %}
-<a target="blank" href="{{site:githubEditBaseURL}}{{ page.path }}">编辑本文</a> 
+<a target="blank" href="{{ site.githubEditBaseURL }}{{ page.path }}">编辑本文</a> 
 </div>
 <ul class="pager">
     {% if page.previous %}
